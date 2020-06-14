@@ -1,0 +1,128 @@
+#menu {
+    height: 65px;
+}
+
+#menu #logo h1 a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+#menu #logo h1 a {
+    color: black;
+}
+
+#menu a  {
+    color: black;
+}
+
+.img {
+    background-size: contain;
+    background-position: top right;
+}
+
+.efeito {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1));
+    position: relative;
+}
+
+.img1 {
+    background-image: url(../img/roji_by_kyokazu_dd3rm5w.jpg);
+}
+
+.conteudo-principal {
+    position: absolute;
+    top: 10%;
+    left: 3%;
+    width: 40%;
+    font-family: "Bitter", Arial, Helvetica, sans-serif;
+}
+
+.inscrever-btn:link,
+.inscrever-btn:active,
+.inscrever-btn:visited {
+    background-color: #c0ca33;
+    padding: 12px 23px;
+    border-radius: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+.inscrever-btn:hover {
+    background-color: #afb42b;
+    transition: 0.5s;
+    text-decoration: none;
+
+}
+
+.caixa {
+    width: 49%;
+    height: 250px;
+    float: left;
+    box-sizing: border-box;
+    padding: 5px 15px;
+}
+
+.caixa h3, .caixa p {
+    width: 55%;
+    text-align: justify;
+}
+
+.caixa1 {
+    background-image: url(../img/fact_hatsune_miku_made_minecraft_by_necroplanter_dd3qdwj.png);
+    background-size: contain;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.caixa2 {
+    background-image: url(../img/protect_raphtalia____by_josiah23art_dczungt.jpg);
+    background-size: contain;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.caixa3 {
+    background-image: url(../img/tenor.gif);
+    background-size: contain;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.caixa4 {
+    background-image: url(../img/waifu.png);
+    background-size: contain;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    background: white;
+    clear: both;
+}
+
+#container-rodape {
+    background-color: #afb42b;
+    padding: 20px;
+}
+
+.depthButton {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 14px;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    background: #cddc39;
+    border-radius: 4px;
+    transition: all .15s ease;
+}
+
+.depthButton:hover {
+    color: black;
+    transform: translateY(-1px);
+    box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+    text-decoration: none;
+}
+
+.preto {
+    color: black;
+}
